@@ -1,0 +1,176 @@
+body {
+    background-color: white;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    /* #7ba566 */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+div.latest {
+    border-bottom: 1px solid lightgrey;
+    margin: 20px;
+    padding: 10px 0px 0px 0px;
+}
+
+.news {
+    color: red;
+    padding: 10px 5px;
+    font-weight: bolder;
+    border-bottom: 1px dashed lightgray;
+}
+
+#smallFont a {
+    font-style: initial;
+    font-size: 14px;
+}
+
+.links a {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: green;
+    text-align: justify;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.links a:hover {
+    text-decoration: none;
+}
+
+div.vc {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+div.vc div {
+    text-align: center;
+    margin: 5px;
+    font-weight: bolder;
+}
+
+div.vc img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+div.vc p {
+    text-align: justify;
+    margin: 10px 5px;
+}
+
+
+/* third section */
+
+.noticeBoardcontainer {
+    background-color: #7ba566;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.noticeBoardcontainer div {
+    text-align: center;
+    padding: 10px 5px;
+    border-bottom: 1px dashed grey;
+    color: white;
+    text-transform: uppercase;
+}
+
+.noticeBoardcontainer ul li a {
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: white;
+}
+
+.awardscontainer {
+    border: 1px solid lightgrey;
+    padding: 6px 0px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.awardscontainer div {
+    text-align: center;
+    padding: 5px 0px;
+    border-bottom: 1px solid lightgrey;
+    color: #7ba566;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+marquee ul {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+marquee ul li a {
+    display: block;
+    text-align: justify;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    color: green;
+    font-weight: bolder;
+}
+
+
+/* second container */
+
+#active {
+    color: red;
+}
+
+.slider {
+    margin-top: 50px;
+    display: block;
+}
+
+.belowSlider {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.belowSlider ul {
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px;
+    color: green;
+    background-color: lightgrey;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.belowSlider ul li {
+    display: inline;
+}
+
+.belowSlider div {
+    position: relative;
+}
+
+.belowSlider div img {
+    float: left;
+    width: 40%;
+    margin-right: 10px;
+}
+
+.belowSlider div p {
+    text-align: justify;
+}
+
+@media screen and (max-width:480px) {
+    .slider {
+        display: none;
+    }
+}
